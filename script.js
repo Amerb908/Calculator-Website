@@ -73,12 +73,18 @@ function flushOperation(floatBuffer) {
     } else if (previousOperator === 'x') {
         runningTotal *= floatBuffer;
     } else if (previousOperator === '÷') {
-        // Perform division
-        runningTotal /= floatBuffer;
-        // Limit the result to two decimal places without rounding
+        // Check for division by zero
+        if (floatBuffer === 0) {
+            runningTotal = "UND";
+        } else {
+            // Perform division
+            runningTotal /= floatBuffer;
+            // Limit the result to two decimal places without rounding
+            runningTotal = Number(runningTotal.toFixed(2));
+        }
     }
-    runningTotal = parseFloat(runningTotal.toFixed(2));
 }
+
 
 function handleNumber(numberString) {
     // Allow adding the decimal point if it hasn't been used yet and the buffer is not empty
