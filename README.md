@@ -12,7 +12,7 @@ The calculator website is designed with a clean and intuitive user interface, ma
 
 2. Clear Button: A clear button is provided to reset the calculator and clear the input field.
 
-3. Keyboard Support: The calculator supports keyboard inputs, enabling users to type in the numbers and use the Enter key for calculations.
+3. Mobile Support: The calculator supports mobile inputs, enabling users to type in the numbers and their fingers for calculations.
 
 4. Error Handling: The calculator performs error handling to prevent invalid inputs and division by zero.
 
