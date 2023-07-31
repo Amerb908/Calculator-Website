@@ -50,12 +50,13 @@ body{
     width: 326px;
 }
 
-.calc-button-row{
+.calc-button-row {
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
+    text-align: center; 
+  }
 
-}
 
 .calc-button{
     backdrop-filter: blur(5.5px);
@@ -99,7 +100,7 @@ body{
 }
 
 .double{
-    flex-basis: 47%;
+    flex-basis: 49%;
 }
 
 .triple{
