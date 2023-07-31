@@ -24,7 +24,7 @@ The calculator website is designed with a clean and intuitive user interface, ma
 
 ## Demo
 
-You can access the live demo of the calculator website by visiting [https://your-calculator-demo-url.com](https://your-calculator-demo-url.com).
+You can access the live demo of the calculator website here: (https://amerb908.github.io/Calculator-Website/).
 
 ## Contributing
 
